@@ -1,15 +1,17 @@
-# Replace with your unique project name
+# Red-Green Assesability Checker
 
 ## Description
 
 **version 1.0**
 
-Replace with a description of *what* your program does (not *how* it works)
+Program takes the RGB values of two colors and evalutes whether
+or not the colors will be hard to distinguish for someone with
+Red-Green color blindness.
 
 
 ## Developer
 
-Replace with your name
+Michael Peccorini
 
 ## Example
 
@@ -23,5 +25,24 @@ g++ --std=c++11 *.cpp -o cvp
 Here is an example of the program running:
 
 ```
-Replace this with a copy-pasted example of the input/output of your program running.
+Red-Green Color Accessibility Checker
+
+Enter the RGB values for Color 1.
+Red (0-255): 100
+Green (0-255): 50
+Blue (0-255): 150
+
+Enter the RGB values for Color 2.
+Red (0-255): 200
+Green (0-255): 175
+Blue (0-255): 120
+
+These colors may be easier to distinguish.
+
+Would you like to test another pair of colors?
+1. Yes
+2. No
+Enter your choice(1/2): 2
+
+Program ended.
 ```
